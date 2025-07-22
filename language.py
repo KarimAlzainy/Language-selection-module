@@ -14,7 +14,7 @@ from tkinter import *
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 LANG_FILE = os.path.join(SCRIPT_DIR, "lang.dat")
 
-# This function gets you the saved language code
+# This function gets you the saved language code, (Expected output: 0 or 1)
 def get_saved_language():
     if os.path.exists(LANG_FILE):
         try:
